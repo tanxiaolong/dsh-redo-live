@@ -1,0 +1,6 @@
+url: https://github.com/tanxiaolong/dsh-redo-live
+name: tanxiaolong/dsh-redo-live
+category: session
+description:
+  en: "Fork of dsh-redo that also works while an answer is streaming: Edit and resend or Regenerate first stops the running turn through the official Session.cancel, waits for the session to go idle, then rewinds that message in place and re-sends the edited text, as upstream does. Command is /relive so it can coexist with dsh-redo."
+  zh: "dsh-redo 的分支版本，回答仍在生成时也能用：点「编辑重发」或「重新生成」时先通过官方 Session.cancel 停掉在跑的回合、等会话空闲，再按上游的原地撤回与重发流程处理。命令为 /relive，可与 dsh-redo 同时安装。"
